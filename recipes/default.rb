@@ -4,5 +4,5 @@
 #
 # Copyright (c) 2016 The Authors, All Rights Reserved.
 
-# include_recipe 'os-hardening'
-# include_recipe 'ssh-hardening'
+include_recipe 'os-hardening'
+include_recipe 'ssh-hardening'
