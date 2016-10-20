@@ -9,8 +9,8 @@ verifier:
   name: inspec
 
 platforms:
-  - name: ubuntu-16.04
-  - name: centos-7.2
+  - name: ubuntu-14.04
+  # - name: centos-7.2
 
 suites:
   - name: default
@@ -19,4 +19,6 @@ suites:
     verifier:
       inspec_tests:
         - test/recipes
+        - https://github.com/dev-sec/tests-os-hardening
+        - https://github.com/dev-sec/tests-ssh-hardening
     attributes:
