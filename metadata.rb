@@ -7,4 +7,4 @@ long_description 'Installs/Configures b_hardening'
 version '0.1.0'
 
 depends 'os-hardening'
-depends 'ssh-hardening'
+# depends 'ssh-hardening'
